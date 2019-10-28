@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="becfa7b4-7ae7-4d1b-a681-c9cc490cd670" name="Default Changelist" comment="" />
+    <list default="true" id="becfa7b4-7ae7-4d1b-a681-c9cc490cd670" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/currency/Scheduling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/currency/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency/CryptoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/currency/Ticker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency/Ticker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/currency/mainThang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/currency/mainThang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/currency/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/currency/Ticker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/currency/Ticker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/currency/mainThang.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/currency/mainThang.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,8 +37,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1SevSlgeJBviPC9DM62eqzgt91g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SprintBoot2/pom.xml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHub/Labs/Maven.ExceptionalPhoneNumbers/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,5 +89,16 @@
       <updated>1571936877871</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

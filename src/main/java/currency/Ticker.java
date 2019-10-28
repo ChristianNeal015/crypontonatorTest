@@ -1,8 +1,9 @@
 package currency;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+
 public class Ticker {
     private String base;
     private String target;

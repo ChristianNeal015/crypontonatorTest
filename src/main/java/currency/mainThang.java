@@ -8,24 +8,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+@EnableScheduling
 public class mainThang {
     private static final Logger log = LoggerFactory.getLogger(mainThang.class);
 
     public static void main(String[] args) {
         SpringApplication.run(mainThang.class, args);
-    }
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder.build();
-    }
-    @Bean
-    public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
-        return args -> {
-            Base base = restTemplate.getForObject(
-                    "https://gturnquist-quoters.cfapps.io/api/random", Base.class);
-            log.info(base.toString());
-        };
     }
 }
